@@ -15,6 +15,12 @@
 
 ### 君正T20
 > mips-linux-4.7.2_32Bit
+
 > mips-linux-4.7.2_64Bit
+
 > mips-linux-uclibc-4.7.2_32Bit
+
 > mips-linux-uclibc-4.7.2_64Bit
+
+### GK7101/7102
+> arm-goke-linux-uclibc-4.6.1
