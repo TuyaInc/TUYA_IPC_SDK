@@ -1,0 +1,16 @@
+***********************************************************
+
+version:3.0.0
+
+date:2018-05-07
+author: changcheng@tuya.com
+branch:master
+
+git tag:tuya_ipc_linux_tutk_all_wifi_dev_3.0.0_arm-none-linux-4.4.1_2018_05_07
+
+note:
+1. 全方案第一版本
+
+
+
+***********************************************************

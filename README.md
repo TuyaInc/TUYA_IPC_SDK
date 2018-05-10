@@ -24,3 +24,6 @@
 
 ### GK7101/7102
 > arm-goke-linux-uclibc-4.6.1
+
+### FH8812
+> arm-fullhan-linux-uclibc-4.3.2
