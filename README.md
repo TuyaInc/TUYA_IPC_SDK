@@ -27,3 +27,9 @@
 
 ### FH8812
 > arm-fullhan-linux-uclibc-4.3.2
+
+### LiteOS
+> liteos-1.3.2
+
+> liteos-1.4.5
+

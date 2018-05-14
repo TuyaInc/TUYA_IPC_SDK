@@ -1,0 +1,17 @@
+***********************************************************
+
+version:3.0.0
+
+date:2018-05-14
+author: changcheng@tuya.com
+branch: liteOS_build
+
+git tag:tuya_ipc_liteos_tutk_all_wifi_dev_3.0.0_liteos-1.4.5_2018_05_14
+
+note:
+1. 全方案第一版本
+2. LiteOS P2P + 本地存储功能
+
+
+
+***********************************************************
