@@ -33,3 +33,5 @@
 
 > liteos-1.4.5
 
+### 海思3518EV100
+> arm-hisiv100-linux-uclibc-4.4.1
