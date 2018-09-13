@@ -1,3 +1,0 @@
-3.0.0版本SDK的DEMO中有一行日志打印错误，可能会造成DEMO崩溃。
-具体位置如下：
-<tuya_ipc_media_utils.c>第<122>行，将 %s改为%u 即可。
