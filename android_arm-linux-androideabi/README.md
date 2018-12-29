@@ -1,4 +1,4 @@
-适用于安卓A7交叉编译器
+适用于安卓32bit交叉编译器
 ```shell
 /android7_A7/toolchain/arm-linux-androideabi/bin$ ./arm-linux-androideabi-gcc --version
 arm-linux-androideabi-gcc (GCC) 4.9.x 20150123 (prerelease)
