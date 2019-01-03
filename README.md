@@ -3,12 +3,16 @@
 
 ### 海思平台
 > arm-hisiv100-linux-uclibc-4.4.1
+
 > arm-hisiv300-linux-uclibc-4.8.3
+
 > arm-hisiv500-linux-4.9.4
 
 ### 海思低功耗LiteOS
 > liteos-1.3.2
+
 > liteos-1.4.5
+
 > liteos-1.4.6
 
 ### REALTEK rts3903
@@ -22,8 +26,11 @@
 
 ### 君正T20
 > mips-linux-4.7.2_32Bit
+
 > mips-linux-4.7.2_64Bit
+
 > mips-linux-uclibc-4.7.2_32Bit
+
 > mips-linux-uclibc-4.7.2_64Bit
 
 ### 标准安卓64bit
@@ -31,9 +38,6 @@
 
 ### 标准安卓32bit
 > android_arm-linux-androideabi
-
-### MTK MT7628
-> mipsel-openwrt-linux-uclibc
 
 ### MTK MT7628
 > mipsel-openwrt-linux-uclibc
@@ -52,6 +56,7 @@
 
 ### 国科GK7101/7102
 > arm-goke-linux-uclibc-4.6.1
+
 > arm-linux-gnueabihf-4.8.3
 
 ### 富瀚FH8812
