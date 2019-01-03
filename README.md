@@ -65,5 +65,6 @@
 ### 睿致M5S
 > arm-buildroot-linux-uclibcgnueabihf
 
-
+### 全志R16
+> arm-openwrt-linux-muslgnueabi
 
