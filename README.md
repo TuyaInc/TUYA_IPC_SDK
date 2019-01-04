@@ -8,6 +8,8 @@
 
 > arm-hisiv500-linux-4.9.4
 
+> arm-hisiv600-linux
+
 ### 海思低功耗LiteOS
 > liteos-1.3.2
 
