@@ -70,3 +70,5 @@
 ### 全志R16
 > arm-openwrt-linux-muslgnueabi
 
+### Multitek HC1772
+> arm-multitek-linux-gnueabi
