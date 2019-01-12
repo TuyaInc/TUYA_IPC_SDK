@@ -10,6 +10,10 @@
 
 > arm-hisiv600-linux
 
+> arm-himix100-linux
+
+> arm-himix200-linux
+
 ### 海思低功耗LiteOS
 > liteos-1.3.2
 
