@@ -80,3 +80,6 @@
 ### NOVATEK NT9851X
 > mipsel-24kec-linux-glibc-4.9
 > mipsel-24kec-linux-uclibc-4.9
+
+### xmsilicon XM530AI
+> arm-xm-linux
