@@ -83,3 +83,6 @@
 
 ### xmsilicon XM530AI
 > arm-xm-linux
+
+### Others
+> dh_alpsx_4.8.3
