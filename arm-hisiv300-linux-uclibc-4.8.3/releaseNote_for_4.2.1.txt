@@ -1,0 +1,8 @@
+1. 注册激活增加token异常判断：token过期触发reset回调
+2. tuya_ipc_get_service_time 接口判断时区是否已经获取，否则返回错误
+3. tuya_ipc_notify_door_bell_press 接口修正错误
+4. 优化本地回放：解决录像文件损坏导致无法回放的问题、优化容量低时的异常上报
+include patch_for_4.2.0_20190122: 
+5. ringbuffer单帧大小上限放宽到300KB
+6. 固件版本号允许xx.xx.xx/xx.xx/xxxx形式
+7. 开放pk_get_rsapubkey接口
