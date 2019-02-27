@@ -1,4 +1,27 @@
+release note for 4.2.4 20190226:
 
+1. 注册激活流程增加token异常判断：token过期触发reset回调
+2. tuya_ipc_get_service_time 接口判断时区是否已经获取，否则返回错误
+3. tuya_ipc_notify_door_bell_press 接口修正错误
+4. 本地回放：解决录像文件损坏导致无法回放的问题、解决回放和删除同一个文件夹可能引起异常的问题、优化容量低时的异常上报
+5. 优化TLS证书管理机制，解决反复echo show唤醒可能引起异常的问题
+6. 云存储：优化初始化过程中的网络抖动可能导致一直无法开始存储的问题
+include patch_for_4.2.0_20190122: 
+7. ringbuffer单帧大小上限放宽到300KB
+8. 固件版本号允许xx.xx.xx/xx.xx/xxxx形式
+9. 开放pk_get_rsapubkey接口
+
+SDK涉及文件修改：
+libs/
+	libtuya_ipc.a
+include/
+	tuya_ipc_media.h
+	tuya_ipc_api.h
+SDK涉及接口修改：
+	NA
+
+
+================ HISTORAY ==================
 release note for 4.2.0 20190118:
 
 1. 支持liteos低功耗系统
