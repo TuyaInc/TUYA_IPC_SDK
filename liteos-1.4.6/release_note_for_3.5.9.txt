@@ -1,6 +1,0 @@
-1. SDK新增统一门铃接口tuya_ipc_notify_door_bell_press、移动告警上报接口tuya_ipc_notify_motion_detect，参考《tuya_ipc_api.h》
-2. 优化HTTP over TLS的机制，解决特定网络环境下OTA失败的问题
-3. 增加P2P的容错性：P2P ID长度变更、安全校验优化
-
-版本说明：
-fs_version: 使用liteos文件系统存储涂鸦DB配置文件
