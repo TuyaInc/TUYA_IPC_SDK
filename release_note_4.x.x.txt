@@ -1,3 +1,23 @@
+
+release note for 4.3.2 20190427:
+
+1. 新增功能：支持云台设备预置收藏点
+	涉及SDK文件变更：
+		新增tuya_ipc_ptz.h
+		在tuya_ipc_dp_handler/tuya_ipc_dp_utils中增加演示代码
+2. 新增低功耗类别demo code
+	涉及SDK文件变更：新增tuya_ipc_low_power_demo.c文件
+3. 功能优化：云存储支持多事件触发
+	涉及接口变更：
+		tuya_ipc_cloud_storage_get_event_status接口增加参数指定事件类型；
+		新增tuya_ipc_cloud_storage_event_add/tuya_ipc_cloud_storage_event_delete接口；
+4. 其他变更：
+	tuya_ipc_ss_init接口增加参数，可以指定加密回调
+	AES_HW_CBC_FUNC结构体从tuya_ipc_cloud_storage.h移到tuya_ipc_media.h
+	tuya_ipc_api.h中删除了不再建议使用的tuya_ipc_notification_message_xxx接口，推荐直接使用tuya_ipc_notify_motion_detect和tuya_ipc_notify_door_bell_press进行推送
+	user_main.c中增加演示用命令
+
+================ HISTORAY ==================
 release note for 4.2.6 20190321:
 
 1. 本地存储: 优化tuya_ipc_ss_uninit接口，解决特定条件下可能卡死的问题
