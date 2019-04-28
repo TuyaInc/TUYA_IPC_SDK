@@ -68,6 +68,9 @@
 ### 富瀚FH8812
 > arm-fullhan-linux-uclibc-4.3.2
 
+### 富瀚FH8632
+> arm-fullhan-linux-uclibcgnueabi
+
 ### 睿致M5S
 > arm-buildroot-linux-uclibcgnueabihf
 
@@ -83,6 +86,9 @@
 
 ### xmsilicon XM530AI
 > arm-xm-linux
+
+### RockChip RK3399
+> aarch64-buildroot-linux-gnu
 
 ### Others
 > dh_alpsx_4.8.3
