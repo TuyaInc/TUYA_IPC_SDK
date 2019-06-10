@@ -1,0 +1,123 @@
+release note for 4.4.6 20190605:
+
+1. 新增功能：支持涂鸦云端AI增值服务
+	涉及SDK文件变更：
+		-新增tuya_ipc_ai_detect_storage.h
+		-在tuya_ipc_motion_detect_demo.c中增加AI服务演示
+	注：需要涂鸦智能APP 3.10.x以上版本配合
+2. 新增功能：支持涂鸦移动追踪算法、图片压缩算法
+	涉及SDK文件变更：
+		-新增tuya_ipc_img_proc.h、tuya_ipc_video_proc.h
+3. 新增功能：支持有线/Wifi同时运行，有线配网/EZ配网同时进行
+	设计SDK文件变更：
+		-demo 去除WIFI_IPC宏定义
+		-demo的build脚本和makefile更新
+	注：需要同时支持有线和wifi的SDK，请向涂鸦PM/FAE获取
+4. demo优化
+	-提供中英文双语开发文档、API接口说明文档
+	-API接口统一英文说明
+	-演示视频更新
+	-新增侦测区域功能DP点演示
+5. 去除tuya_ipc_reset接口，基于安全考虑不再建议在设备端主动发起解绑
+6. 优化弱网情况下的chromecast推流服务
+7. 优化云台机预置点功能API（涉及接口变更）
+8. 优化liteos系统上的flash存储功能和启动速度
+9. 安全升级，防止栈溢出攻击等
+
+================ HISTORAY ==================
+release note for 4.3.2 20190427:
+
+1. 新增功能：支持云台设备预置收藏点
+	涉及SDK文件变更：
+		新增tuya_ipc_ptz.h
+		在tuya_ipc_dp_handler/tuya_ipc_dp_utils中增加演示代码
+2. 新增低功耗类别demo code
+	涉及SDK文件变更：新增tuya_ipc_low_power_demo.c文件
+3. 功能优化：云存储支持多事件触发
+	涉及接口变更：
+		tuya_ipc_cloud_storage_get_event_status接口增加参数指定事件类型；
+		新增tuya_ipc_cloud_storage_event_add/tuya_ipc_cloud_storage_event_delete接口；
+4. 其他变更：
+	tuya_ipc_ss_init接口增加参数，可以指定加密回调
+	AES_HW_CBC_FUNC结构体从tuya_ipc_cloud_storage.h移到tuya_ipc_media.h
+	tuya_ipc_api.h中删除了不再建议使用的tuya_ipc_notification_message_xxx接口，推荐直接使用tuya_ipc_notify_motion_detect和tuya_ipc_notify_door_bell_press进行推送
+	user_main.c中增加演示用命令
+
+==================================
+release note for 4.2.6 20190321:
+
+1. 本地存储: 优化tuya_ipc_ss_uninit接口，解决特定条件下可能卡死的问题
+2. P2P: 优化在超过限制数目P2P连接（5路）长时间访问时的稳定性
+3. 云存储: 提升签名算法健壮性，解决在特定编译器上上传图片或视频鉴权错误地问题
+4. demo code: 区分wire/wifi类型编译、修复dp handler中的打印错误
+
+==================================
+release note for 4.2.4 20190226:
+
+1. 注册激活流程增加token异常判断：token过期触发reset回调
+2. tuya_ipc_get_service_time 接口判断时区是否已经获取，否则返回错误
+3. tuya_ipc_notify_door_bell_press 接口修正错误
+4. 本地回放：解决录像文件损坏导致无法回放的问题、解决回放和删除同一个文件夹可能引起异常的问题、优化容量低时的异常上报
+5. 优化TLS证书管理机制，解决反复echo show唤醒可能引起异常的问题
+6. 云存储：优化初始化过程中的网络抖动可能导致一直无法开始存储的问题
+include patch_for_4.2.0_20190122: 
+7. ringbuffer单帧大小上限放宽到300KB
+8. 固件版本号允许xx.xx.xx/xx.xx/xxxx形式
+9. 开放pk_get_rsapubkey接口
+
+SDK涉及文件修改：
+libs/
+	libtuya_ipc.a
+include/
+	tuya_ipc_media.h
+	tuya_ipc_api.h
+SDK涉及接口修改：
+	NA
+
+==================================
+release note for 4.2.0 20190118:
+
+1. 支持liteos低功耗系统
+2. 优化TLS连接速率，提升配网、配置体验
+3. 优化DNS域名解析流程
+4. 更新涂鸦配置文件的安全性（DB加密）
+5. demo：修正SD卡模式值的错误、
+6. 提升涂鸦P2P兼容性
+7. 支持16K采样率音频
+8. 优化云存储的异常处理
+9. 优化本地回放的时间控制
+
+SDK涉及文件修改：
+libs/
+	libtuya_ipc.a
+include/
+	tuya_cloud_error_code.h
+	tuya_cloud_types.h
+	tuya_g711_utils.h
+	tuya_iot_config.h
+	tuya_ipc_api.h
+	uni_network.h
+demo_tuya_ipc/include/
+	tuya_ipc_common_demo.h
+demo_tuya_ipc/user/
+	tuya_ipc_cloud_storage_demo.c
+	tuya_ipc_dp_handler.c
+	tuya_ipc_dp_utils.c
+	tuya_ipc_motion_detect_demo.c
+
+==================================
+release note for 4.1.4 20190104:
+
+1. SDK接口头文件重复/与3.x系列不一致的整理
+2. 安全证书兼容性提升
+3. 优化demo code中移动侦测告警开关的逻辑
+4. SDK包增加说明文档和演示数据文件
+5. P2P优化容错机制
+6. 涂鸦DB存储优化解决可能引入内存泄露的问题
+7. 新增支持门铃消息上报接口
+
+==================================
+release note for 4.1.2 20181222:
+1. 针对摄像头的数据安全进行全方位的加强，所有网络通道加密，所有用户数据加密。满足北美和欧洲的安全隐私规范要求。
+2. 新版本的demo code更全面地演示涂鸦SDK各个功能的使用方式。
+3. P2P使用涂鸦自研版本，预览/回放出图更快速，同时保证所有交互仅发生在设备所在地区。
