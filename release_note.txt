@@ -1,11 +1,23 @@
 
+release note for 4.5.4 20190815:
+
+1. 新增功能：支持门铃视频留言
+	new API: tuya_ipc_leave_video_msg，详见tuya_ipc_video_msg.h
+2. 新增功能：支持多类型消息上报
+	new API: tuya_ipc_notify_with_event/tuya_ipc_door_bell_press
+3. 新增功能：支持自定义的OTA升级进度上报
+	new API: tuya_ipc_upgrade_progress_report
+4. 安全升级：对消息图片执行加密保护; P2P安全升级
+5. 其他变更：合并P2P相关库到libtuya_ipc.a中；demo增加开源libz库
+
+================ HISTORAY ==================
 release note for 4.4.12 20190718:
 
 1. 统一发布同时支持有线/无线的SDK版本
 2. 低功耗品类增加RTC时间异常时的本地存储数据修复机制
 3. 修复可能引起进程崩溃的问题
 
-================ HISTORAY ==================
+==================================
 release note for 4.4.8 20190621:
 
 1. 优化低功耗门铃类产品功能
@@ -15,7 +27,7 @@ release note for 4.4.8 20190621:
 	-增加呼叫接口tuya_ipc_notify_door_bell_press兼容性
 	-增加mqtt上下线的状态回调（通过demo code中的__IPC_APP_Get_Net_Status_cb，增加状态STAT_MQTT_ONLINE/STAT_MQTT_OFFLINE）
 
-================ HISTORAY ==================
+==================================
 release note for 4.4.6 20190605:
 
 1. 新增功能：支持涂鸦云端AI增值服务
@@ -42,7 +54,7 @@ release note for 4.4.6 20190605:
 8. 优化liteos系统上的flash存储功能和启动速度
 9. 安全升级，防止栈溢出攻击等
 
-================ HISTORAY ==================
+==================================
 release note for 4.3.2 20190427:
 
 1. 新增功能：支持云台设备预置收藏点
