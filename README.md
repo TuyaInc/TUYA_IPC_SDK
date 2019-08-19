@@ -21,6 +21,8 @@
 
 > liteos-1.4.6
 
+> liteos-3.2.3
+
 ### REALTEK rts3903
 > mips-linux-uclibc-gcc-4.8.5_rts3903
 
@@ -29,6 +31,11 @@
 
 ### MStar msc313e
 > gcc-linaro-arm-linux-gnueabihf-4.8
+
+> arm-buildroot-linux-uclibcgnueabihf-313e
+
+### MStar msc316dc
+> arm-buildroot-linux-uclibcgnueabihf-msc316dc
 
 ### 君正T20
 > mips-linux-4.7.2_32Bit
@@ -82,6 +89,7 @@
 
 ### NOVATEK NT9851X
 > mipsel-24kec-linux-glibc-4.9
+
 > mipsel-24kec-linux-uclibc-4.9
 
 ### xmsilicon XM530AI
