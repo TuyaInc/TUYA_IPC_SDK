@@ -1,12 +1,24 @@
 
+release note for 4.5.8 20190912:
+[改进与优化]
+- 修复liteos系统时间戳截短问题
+- 优化echoshow时间戳处理逻辑
+- 修复低功耗品类消息接口序列号可能重复的问题
+- 修复多个APP交替开闭双向对讲时偶现失败的问题
+- 优化P2P的资源使用量
+- 修复夏令时时间段读取异常的问题
+- 上报DP接口tuya_ipc_dp_report异常时返回错误值
+
+================ HISTORAY ==================
+
 release note for 4.5.6 20190822:
 1. 问题修复： 预览或云存储容易出现音频跳帧的问题
 2. 改进优化： 优化P2P异常处理机制
 
-================ HISTORAY ==================
+==================================
 release note for 4.5.4 20190815:
 
-1. 新增功能：支持门铃视频留言
+1. 新增功能：支持门铃视频留言（0911更新：暂不开放功能）
 	new API: tuya_ipc_leave_video_msg，详见tuya_ipc_video_msg.h
 2. 新增功能：支持多类型消息上报
 	new API: tuya_ipc_notify_with_event/tuya_ipc_door_bell_press
