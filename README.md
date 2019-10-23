@@ -98,5 +98,8 @@
 ### RockChip RK3399
 > aarch64-buildroot-linux-gnu
 
+### 松瀚 SN98660
+> arm-unknown-linux-uclibcgnueabi
+
 ### Others
 > dh_alpsx_4.8.3
