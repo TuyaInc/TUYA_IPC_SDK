@@ -1,105 +1,142 @@
-### ubuntu x64 桌面版本
-> linux-ubuntu-6.2.0_64Bit
+# Overview
+TUYA_IPC_SDK is an integrated library&APIs, primarily for developing IP camera products.
 
-### 海思平台
-> arm-hisiv100-linux-uclibc-4.4.1
+* Stable: 4.5.12   suggested version with all basic features
+* Lastest: 
+    - 4.6.4: New supported feature: Azure cloud storage, edge AI detection(MD/HD/FD/Pet etc.)
+    - 4.7.0: New supported feature: live preview/two-way audio via Webrtc
 
-> arm-hisiv300-linux-uclibc-4.8.3
+# Feature highlights
+* Register to Tuya Cloud platform
+* Realtime preview via Tuya Smart APP
+* Realtime preview via Amazon Echo products and Goolgle chromecast
+* Relatime preview via Web
+* Two-way audio
+* Local storage(SD card e.g.) and playback
+* Cloud storage and playback
+* Multiple event notification
+* AI detect(MD/HD/FD/Pet etc.) via Tuya Cloud
+* PTZ control and preset cruise
+* Image processing algorithm to enhance QR code recognition
+* Image processing algorithm for motion detection and tracking
 
-> arm-hisiv500-linux-4.9.4
+# How to
 
-> arm-hisiv600-linux
+## Run a quick demo
+1. edit Makefile: set COMPILE_PREX ?= to absolute path of your toolchain gcc.
+```bash
+$ vi Makefile
+```
+2. edit demo_tuya_ipc/user/user_main.c, input right IPC_APP_PID/IPC_APP_UUID/IPC_APP_AUTHKEY and then build an application
+```bash
+$ sh build_app.sh demo_tuya_ipc
+```
+3. put build result bin "tuya_ipc_demo_tuya_ipc" and "demo_tuya_ipc/resource" dir onto board/device /tmp,  and run as below (check detail in <Tuya_IPC_SDK_Development_Manual.doc>)
+```bash
+$ cd  /tmp
+$ ./tuya_ipc_demo_tuya_ipc -m 2 -r "./" -t "A token you can get from TUYA APP"
+```
 
-> arm-himix100-linux
+# Open Source List
+* librtmp v2.3
+* libuv v1.23.2
+* Mbed TLS v2.9.0
+* zlib v1.2.11
 
-> arm-himix200-linux
+# Supported Platforms
 
-### 海思低功耗LiteOS
-> liteos-1.3.2
+## ubuntu x64 laptop
+* linux-ubuntu-6.2.0_64Bit
 
-> liteos-1.4.5
+## Hisilicon
+* arm-hisiv100-linux-uclibc-4.4.1
+* arm-hisiv300-linux-uclibc-4.8.3
+* arm-hisiv500-linux-4.9.4
+* arm-hisiv510-linux
+* arm-hisiv600-linux
+* arm-himix100-linux
+* arm-himix200-linux
 
-> liteos-1.4.6
+## Hisilicon LiteOS
+* liteos-1.3.2
+* liteos-1.4.5
+* liteos-1.4.6
+* liteos-3.2.3
 
-> liteos-3.2.3
+## REALTEK
+* mips-linux-uclibc-gcc-4.8.5_rts3903 for rts3903
+* rsdk-6.4.1-linux for rts3906
 
-### REALTEK rts3903
-> mips-linux-uclibc-gcc-4.8.5_rts3903
+## REALTEK rtl819x
+* msdk-4.4.7
 
-### REALTEK rtl819x
-> msdk-4.4.7
+## MStar
+* gcc-linaro-arm-linux-gnueabihf-4.8 for msc313e
+* arm-buildroot-linux-uclibcgnueabihf-313e for msc313e/ssc323e
+* arm-buildroot-linux-uclibcgnueabihf-msc316dc for msc316dc
 
-### MStar msc313e
-> gcc-linaro-arm-linux-gnueabihf-4.8
+## andriod 64bit Linux
+* andriod-arm-aarch64-linux-gnu
 
-> arm-buildroot-linux-uclibcgnueabihf-313e
+## andriod 32bit Linux
+* android_arm-linux-androideabi
 
-### MStar msc316dc
-> arm-buildroot-linux-uclibcgnueabihf-msc316dc
+## MTK
+* mipsel-openwrt-linux-uclibc for MT7628
+* mipsel-openwrt-linux-mt7688 for mt7688
 
-### 君正T20
-> mips-linux-4.7.2_32Bit
+## Multitek HC1772
+* arm-multitek-linux-gnueabi
 
-> mips-linux-4.7.2_64Bit
+## NOVATEK NT9851X
+* mipsel-24kec-linux-glibc-4.9
+* mipsel-24kec-linux-uclibc-4.9
 
-> mips-linux-uclibc-4.7.2_32Bit
+## xmsilicon
+* arm-xm-linux for XM530AI
+* arm-eabi-uclibc for xm510
 
-> mips-linux-uclibc-4.7.2_64Bit
+## RockChip RK3399
+* aarch64-buildroot-linux-gnu
 
-### 标准安卓64bit
-> andriod-arm-aarch64-linux-gnu
+## 安凯
+* arm-none-linux-4.4.1 for 3918/3916 V100
+* arm-anykav200-linux-uclibc-4.8.5 for 3918/3916 V200
 
-### 标准安卓32bit
-> android_arm-linux-androideabi
+## 君正
+* mips-linux-4.7.2_32Bit
+* mips-linux-4.7.2_64Bit
+* mips-linux-uclibc-4.7.2_32Bit
+* mips-linux-uclibc-4.7.2_64Bit
 
-### MTK MT7628
-> mipsel-openwrt-linux-uclibc
+## 全志R16
+* arm-openwrt-linux-muslgnueabi
 
-### 安凯3918/3916 V200
-> arm-anykav200-linux-uclibc-4.8.5
+## 新唐N32926
+* arm-nuvoton-linux-uclibceabi
 
-### 安凯3918/3916 V100
-> arm-none-linux-4.4.1
+## 智源GM8136
+* arm-unknown-linux-uclibc-4.4.0
 
-### 新唐N32926
-> arm-nuvoton-linux-uclibceabi
+## 国科GK7101/7102
+* arm-goke-linux-uclibc-4.6.1
+* arm-linux-gnueabihf-4.8.3
 
-### 智源GM8136
-> arm-unknown-linux-uclibc-4.4.0
+## 富瀚
+* arm-fullhan-linux-uclibc-4.3.2 for FH8812
+* arm-fullhan-linux-uclibcgnueabi for FH8632
 
-### 国科GK7101/7102
-> arm-goke-linux-uclibc-4.6.1
+## 睿致M5S
+* arm-buildroot-linux-uclibcgnueabihf
 
-> arm-linux-gnueabihf-4.8.3
+## 松瀚 SN98660
+* arm-unknown-linux-uclibcgnueabi
 
-### 富瀚FH8812
-> arm-fullhan-linux-uclibc-4.3.2
+## 酷芯 AR9201
+* gcc-linaro-5.4.1-2017.05-x86_64
 
-### 富瀚FH8632
-> arm-fullhan-linux-uclibcgnueabi
+## 数字动力 X1H
+* gcc-linaro-5.3.1-2016.05-x86_64
 
-### 睿致M5S
-> arm-buildroot-linux-uclibcgnueabihf
-
-### 全志R16
-> arm-openwrt-linux-muslgnueabi
-
-### Multitek HC1772
-> arm-multitek-linux-gnueabi
-
-### NOVATEK NT9851X
-> mipsel-24kec-linux-glibc-4.9
-
-> mipsel-24kec-linux-uclibc-4.9
-
-### xmsilicon XM530AI
-> arm-xm-linux
-
-### RockChip RK3399
-> aarch64-buildroot-linux-gnu
-
-### 松瀚 SN98660
-> arm-unknown-linux-uclibcgnueabi
-
-### Others
-> dh_alpsx_4.8.3
+## Others
+* dh_alpsx_4.8.3
