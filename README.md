@@ -4,7 +4,7 @@ TUYA_IPC_SDK is an integrated library&APIs, primarily for developing IP camera p
 * Stable: 4.5.14   suggested version with all basic features
 * Lastest: 
     - 4.6.6: New supported feature: Azure cloud storage, edge AI detection(MD/HD/FD/Pet etc.)
-    - 4.7.0: New supported feature: Realtime preview/two-way audio via both WebRTC and standard tuya media relay server.
+    - 4.7.2: New supported feature: Realtime preview/two-way audio via both WebRTC and standard tuya media relay server.
 
 # Feature highlights
 * Register to Tuya Cloud platform
