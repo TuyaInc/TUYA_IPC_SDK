@@ -36,6 +36,8 @@ $ sh build_app.sh demo_tuya_ipc
 $ cd  /tmp
 $ ./tuya_ipc_demo_tuya_ipc -m 2 -r "./" -t "A token you can get from TUYA APP"
 ```
+## Full SDK manual and API description
+[TUYA Docs center](https://docs.tuya.com/zh/iot/device-development/access-mode-product-solution/product-solution-ipc/sdk)
 
 # Open Source List
 * librtmp v2.3
