@@ -138,8 +138,9 @@ $ ./tuya_ipc_demo_tuya_ipc -m 2 -r "./" -t "A token you can get from TUYA APP"
 ## 酷芯 AR9201
 * gcc-linaro-5.4.1-2017.05-x86_64
 
-## 数字动力 X1H
-* gcc-linaro-5.3.1-2016.05-x86_64
+## 数字动力
+* gcc-linaro-5.3.1-2016.05-x86_64 for X1H
+* arm-linux-gnueabihf_x9 for X9
 
 ## Others
 * dh_alpsx_4.8.3
