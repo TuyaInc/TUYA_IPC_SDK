@@ -1,10 +1,10 @@
 # Overview
 TUYA_IPC_SDK is an integrated library&APIs, primarily for developing IP camera products.
 
-* Stable: 4.5.14   suggested version with all basic features
+* Stable: 4.5.14   suggested version with basic features only
 * Lastest: 
-    - 4.7.2: New supported feature: edge AI detection(MD/HD/FD/Pet etc.) realtime preview/two-way audio via both WebRTC and standard tuya media relay server.
-	- 4.8.0: New supported feature: Leave Audio/Video message
+    - 4.7.4: New supported feature: edge AI detection(MD/HD/FD/Pet etc.) realtime preview/two-way audio via both WebRTC and standard tuya media relay server.
+	- 4.8.0: New supported feature: leave audio/video message
 	NOTE: By default, higher version SDK supports all features listed in lower ones.
 
 # Feature highlights
@@ -37,6 +37,10 @@ $ sh build_app.sh demo_tuya_ipc
 $ cd  /tmp
 $ ./tuya_ipc_demo_tuya_ipc -m 2 -r "./" -t "A token you can get from TUYA APP"
 ```
+
+## Preview on Web
+Login on https://ipc.ismartlife.me/login with Chrome, scan QR code with Tuya Smart App.
+
 ## Full SDK manual and API description
 [TUYA Docs center](https://docs.tuya.com/zh/iot/device-development/access-mode-product-solution/product-solution-ipc/sdk)
 
@@ -51,7 +55,7 @@ $ ./tuya_ipc_demo_tuya_ipc -m 2 -r "./" -t "A token you can get from TUYA APP"
 ## ubuntu x64 laptop
 * linux-ubuntu-6.2.0_64Bit
 
-## Hisilicon
+## Hisilicon Linux
 * arm-hisiv100-linux-uclibc-4.4.1
 * arm-hisiv300-linux-uclibc-4.8.3
 * arm-hisiv500-linux-4.9.4
@@ -64,7 +68,7 @@ $ ./tuya_ipc_demo_tuya_ipc -m 2 -r "./" -t "A token you can get from TUYA APP"
 * liteos-1.3.2
 * liteos-1.4.5
 * liteos-1.4.6
-* liteos-3.2.3
+* liteos-3.2.3(use arm-himix100-linux)
 
 ## REALTEK
 * mips-linux-uclibc-gcc-4.8.5_rts3903 for rts3903
@@ -141,6 +145,9 @@ $ ./tuya_ipc_demo_tuya_ipc -m 2 -r "./" -t "A token you can get from TUYA APP"
 ## 数字动力
 * gcc-linaro-5.3.1-2016.05-x86_64 for X1H
 * arm-linux-gnueabihf_x9 for X9
+
+## 安霸 AMBARELLA S5L
+* linaro-aarch64-2017.08-gcc7.1
 
 ## Others
 * dh_alpsx_4.8.3
