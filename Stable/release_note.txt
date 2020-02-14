@@ -1,3 +1,46 @@
+release note for 4.7.4 20200207:
+[优化]
+- liteos系统P2P安全性稳定性提升
+- 人脸识别管理逻辑优化
+- 优化本地存储事件跳播回放处理
+
+==================================
+release note for 4.7.2 20191223:
+[优化]
+- 优化部分芯片平台兼容性
+- 优化WebRTC功能的内存占用情况
+- 优化WebRTC多路对讲互斥处理
+- 优化本地事件存储，0点跨天时可能丢秒的问题
+
+==================================
+release note for 4.7.0 20191211:
+[新功能]
+- 支持通过webrtc方式外部推流：echoshow、chromecast、web。详见tuya_ipc_webrtc.h
+- 支持涂鸦标准化云端relay音视频转发服务，应用于所有拓展服务。无API接入需要。
+- 新增时间获取接口tuya_ipc_get_tm_with_timezone_dls，综合考虑时区和夏令时
+- 开放P2P预览高标清切换的callback
+[优化]
+- 提升在线设备问题定位能力
+- 优化离线重连机制
+- 解决本地存储回放拖动小概率失败的问题
+- liteos系统减少日志，加快上线速度
+- 解决chromecast推流小概率缺少音频的情况
+- 优化人脸图片下载接口的资源消耗
+
+==================================
+release note for 4.6.4 20191031:
+[新功能]
+- 支持本地AI人脸识别功能： include/tuya_ipc_ai_face_detect.h, demo_tuya_ipc/user/tuya_ipc_face_detect_demo.c
+- 海外地区支持微软云存储azure。不涉及API变更，内部自动识别。
+- 二维码图像增强功能(扫码速率成功率优化)： include/tuya_ipc_qrcode_proc.h, demo_tuya_ipc/user/tuya_ipc_qrcode_demo.c
+[其他优化]
+- 新增tuya_ipc_get_service_time_force接口，强制获取时间戳
+- 移动侦测事件最小去抖时间10秒 （报警最小间隔10秒）
+- demo代码优化：
+	演示升级进度上报接口tuya_ipc_upgrade_progress_report的使用方式
+	低功耗设备上线回调新增状态STAT_MQTT_ONLINE
+
+==================================
 release note for 4.5.14 20191206:
 [改进与优化]
 - 优化离线重连机制
