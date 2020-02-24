@@ -1,3 +1,5 @@
+# toolchain说明
+
 适用于君正T20交叉编译器 32位 glibc
 ```shell
 /mips-linux-4.7.2_32Bit/toolchain/mips-gcc472-glibc216-32bit/bin$ ./mips-linux-gnu-gcc --version
@@ -8,3 +10,6 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
 
 
+# 其他说明
+
+[产测上位机SDK](https://github.com/TuyaInc/TUYA_PTS_SDK/)

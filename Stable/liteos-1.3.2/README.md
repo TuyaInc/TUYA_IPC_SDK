@@ -1,3 +1,5 @@
+# toolchain说明
+
 适用于LiteOS 1.3.2
 ```shell
 arm-hisiv500-linux/bin$ ./arm-hisiv500-linux-uclibcgnueabi-gcc --version
@@ -12,3 +14,6 @@ Huawei LiteOS 1.3.2
 
 
 
+# 其他说明
+
+[产测上位机SDK](https://github.com/TuyaInc/TUYA_PTS_SDK/)

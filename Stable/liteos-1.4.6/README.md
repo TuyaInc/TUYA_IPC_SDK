@@ -1,3 +1,5 @@
+# toolchain说明
+
 适用于LiteOS 1.4.6
 fs version： 涂鸦配置保存在文件系统中的形式，需要开发者指定保存路径。
 flash version： 涂鸦配置保存在flash分区中，需要开发者实现分区的划分和读写操作。
@@ -11,3 +13,6 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 
 
+# 其他说明
+
+[产测上位机SDK](https://github.com/TuyaInc/TUYA_PTS_SDK/)

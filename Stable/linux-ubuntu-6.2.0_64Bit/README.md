@@ -1,3 +1,5 @@
+# toolchain说明
+
 适用于ubuntu x64桌面版
 ```shell
 gcc --version
@@ -9,3 +11,6 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 
 
+# 其他说明
+
+[产测上位机SDK](https://github.com/TuyaInc/TUYA_PTS_SDK/)

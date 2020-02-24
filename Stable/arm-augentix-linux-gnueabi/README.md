@@ -1,3 +1,5 @@
+# toolchain说明
+
 适用于augentix HC1772交叉编译器版本
 ```shell
 arm-multitek-linux-gnueabi-gcc --version
@@ -8,3 +10,6 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 ```
 
+# 其他说明
+
+[产测上位机SDK](https://github.com/TuyaInc/TUYA_PTS_SDK/)

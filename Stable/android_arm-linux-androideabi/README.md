@@ -1,3 +1,5 @@
+# toolchain说明
+
 适用于安卓32bit交叉编译器
 ```shell
 /android7_A7/toolchain/arm-linux-androideabi/bin$ ./arm-linux-androideabi-gcc --version
@@ -8,3 +10,6 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
 
 [JAVA VERSION](https://tuyainc.github.io/tuyasmart_android_device_sdk_doc/)
+# 其他说明
+
+[产测上位机SDK](https://github.com/TuyaInc/TUYA_PTS_SDK/)

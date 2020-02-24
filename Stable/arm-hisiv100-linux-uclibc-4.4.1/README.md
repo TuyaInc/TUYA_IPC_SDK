@@ -1,3 +1,5 @@
+# toolchain说明
+
 适用于海思V100交叉编译器
 ```shell
 arm-hisiv100nptl-linux/arm-hisiv100-linux/bin$ ./arm-hisiv100-linux-uclibcgnueabi-gcc --version
@@ -6,3 +8,6 @@ Copyright (C) 2009 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
+# 其他说明
+
+[产测上位机SDK](https://github.com/TuyaInc/TUYA_PTS_SDK/)

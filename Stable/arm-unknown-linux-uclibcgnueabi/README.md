@@ -1,3 +1,5 @@
+# toolchain说明
+
 适用于松瀚 SN98660 交叉编译器
 ```shell
 arm-unknown-linux-uclibcgnueabi-gcc -v
@@ -9,3 +11,6 @@ Configured with: /home/yangdi_xu/git.t/st58600/toolchain/buildroot-2011.02/src/o
 Thread model: posix
 gcc version 4.5.2 (SONiX GCC-4.5.2 Release 2011-12-06) 
 ```
+# 其他说明
+
+[产测上位机SDK](https://github.com/TuyaInc/TUYA_PTS_SDK/)
