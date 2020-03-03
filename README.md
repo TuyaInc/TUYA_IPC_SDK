@@ -72,21 +72,15 @@ Login on https://ipc.ismartlife.me/login with Chrome, scan QR code with Tuya Sma
 
 ## REALTEK
 * mips-linux-uclibc-gcc-4.8.5_rts3903 for rts3903
+* rsdk-6.4.1 for rts3905
 * rsdk-6.4.1-linux for rts3906
-
-## REALTEK rtl819x
-* msdk-4.4.7
+* rsdk-6.5.0 for rts3903/3906
+* msdk-4.4.7 for rtl819x
 
 ## MStar
 * gcc-linaro-arm-linux-gnueabihf-4.8 for msc313e
 * arm-buildroot-linux-uclibcgnueabihf-313e for msc313e/ssc323e
 * arm-buildroot-linux-uclibcgnueabihf-msc316dc for msc316dc
-
-## andriod 64bit Linux
-* andriod-arm-aarch64-linux-gnu
-
-## andriod 32bit Linux
-* android_arm-linux-androideabi
 
 ## MTK
 * mipsel-openwrt-linux-uclibc for MT7628
@@ -103,18 +97,20 @@ Login on https://ipc.ismartlife.me/login with Chrome, scan QR code with Tuya Sma
 * arm-xm-linux for XM530AI
 * arm-eabi-uclibc for xm510
 
-## RockChip RK3399
-* aarch64-buildroot-linux-gnu
+## RockChip
+* aarch64-buildroot-linux-gnu for RK3399
+* aarch64-linux-gnu for RK3326
 
 ## 安凯
 * arm-none-linux-4.4.1 for 3918/3916 V100
 * arm-anykav200-linux-uclibc-4.8.5 for 3918/3916 V200
 
-## 君正
+## 君正 T10 T20 T30A
 * mips-linux-4.7.2_32Bit
 * mips-linux-4.7.2_64Bit
 * mips-linux-uclibc-4.7.2_32Bit
 * mips-linux-uclibc-4.7.2_64Bit
+* mips-gcc540-glibc222-64bit-r3.3.0
 
 ## 全志R16
 * arm-openwrt-linux-muslgnueabi
@@ -149,5 +145,9 @@ Login on https://ipc.ismartlife.me/login with Chrome, scan QR code with Tuya Sma
 ## 安霸 AMBARELLA S5L
 * linaro-aarch64-2017.08-gcc7.1
 
+## 多方科技augentix
+* arm-augentix-linux-gnueabi
+
 ## Others
 * dh_alpsx_4.8.3
+* android_arm-linux-androideabi for standard 32Bit android
