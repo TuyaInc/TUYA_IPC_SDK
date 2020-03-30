@@ -1,10 +1,12 @@
 # Overview
 TUYA_IPC_SDK is an integrated library&APIs, primarily for developing IP camera products.
 
-* Stable: 4.7.4   suggested version with basic features only
-* Lastest: 
-	- 4.8.0: New supported feature: leave audio/video message
-	NOTE: By default, higher version SDK supports all features listed in lower ones.
+* Stable: 4.7.6   suggested version.
+* Lastest: 4.8.1   version with new supported feature, tested and varified only on certain hardware platform.
+	- Audio/video message: leave audio/video message to message center
+	- AP mode streaming: when IPC is working on AP mode without WAN, TUYA APP is able to preview via LAN. 
+	- Direct QR scanning pairing: for IPC with 4G network, use TUYA APP to scan the QR code on IPC for pairing.
+
 
 # Feature highlights
 * Register to Tuya Cloud platform
