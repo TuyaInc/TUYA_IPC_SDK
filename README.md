@@ -1,12 +1,12 @@
 # Overview
 TUYA_IPC_SDK is an integrated library&APIs, primarily for developing IP camera products.
 
-* Stable: 4.7.6   suggested version.
-* Lastest: 4.8.1   version with new supported feature, tested and varified only on certain hardware platform.
+* DemoResource:   resources for sdk quick demo: h264 video/pcm audio/jpeg snapshot etc.
+* Stable: 4.7.8   suggested version.
+* Lastest: 4.8.1  version with new supported feature, tested and varified only on certain hardware platform.
 	- Audio/video message: leave audio/video message to message center
 	- AP mode streaming: when IPC is working on AP mode without WAN, TUYA APP is able to preview via LAN. 
 	- Direct QR scanning pairing: for IPC with 4G network, use TUYA APP to scan the QR code on IPC for pairing.
-
 
 # Feature highlights
 * Register to Tuya Cloud platform
@@ -34,17 +34,17 @@ $ vi Makefile
 ```bash
 $ sh build_app.sh demo_tuya_ipc
 ```
-3. put build result bin "tuya_ipc_demo_tuya_ipc" and "demo_tuya_ipc/resource" dir onto board/device /tmp,  and run as below (check detail in <Tuya_IPC_SDK_Development_Manual.doc>)
+3. extract DemoResource/resource.tar.gz and put together with build result bin "tuya_ipc_demo_tuya_ipc" under /tmp, then run as below (check detail in <Tuya_IPC_SDK_Development_Manual.doc>)
 ```bash
-$ cd  /tmp
-$ ./tuya_ipc_demo_tuya_ipc -m 2 -r "./" -t "A token you can get from TUYA APP"
+$ /tmp/tuya_ipc_demo_tuya_ipc -m 2 -r "./" -t "A token you can get from TUYA APP"
 ```
 
 ## Preview on Web
 Login on https://ipc.ismartlife.me/login with Chrome, scan QR code with Tuya Smart App.
+(works only with SDK version >= 4.7.2 and NOT low-power type)
 
 ## Full SDK manual and API description
-[TUYA Docs center](https://docs.tuya.com/zh/iot/device-development/access-mode-product-solution/product-solution-ipc/sdk)
+[TUYA Docs center]( https://docs.tuya.com/zh/iot/device-development/access-mode-product-solution/product-solution-ipc/sdk )
 
 # Open Source List
 * librtmp v2.3
