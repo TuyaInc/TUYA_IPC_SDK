@@ -10,10 +10,11 @@ TUYA_IPC_SDK is an integrated library&APIs, primarily for developing IP camera p
 
 # Feature highlights
 * Register to Tuya Cloud platform
+* Multiple device pairing method(EZ/QR/AP/Wired/4G e.g.)
 * Realtime preview via Tuya Smart APP
 * Realtime preview via Amazon Echo products and Goolgle chromecast
-* Relatime preview via Web
-* Two-way audio via Tuya APP and Amazon Echo
+* Relatime preview via Web(webrtc)
+* Two-way audio via Tuya APP and Amazon Echo(webrtc)
 * Local storage(SD card e.g.) and playback
 * Cloud storage and playback
 * Multiple types of event notification
