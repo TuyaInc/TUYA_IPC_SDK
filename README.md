@@ -106,7 +106,8 @@ Login on https://ipc.ismartlife.me/login with Chrome, scan QR code with Tuya Sma
 
 ## 安凯
 * arm-none-linux-4.4.1 for 3918/3916 V100
-* arm-anykav200-linux-uclibc-4.8.5 for 3918/3916 V200
+* arm-anykav200-linux-uclibc-4.8.5 for 3918/3916 v200
+* arm-anykav500-linux-uclibcgnueabi-gcc-4.9.4 for v500
 
 ## 君正 T10 T20 T30A T31
 * mips-linux-4.7.2_32Bit
