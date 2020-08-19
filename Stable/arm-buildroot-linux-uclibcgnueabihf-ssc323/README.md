@@ -1,6 +1,6 @@
 # toolchain说明
 
-适用于睿致M5S, 交叉编译器版本
+适用于SSC323/333, 交叉编译器版本
 ```shell
 #./vtcs_toolchain/vienna/usr/bin/arm-buildroot-linux-uclibcgnueabihf-gcc --version
 arm-buildroot-linux-uclibcgnueabihf-gcc.br_real (Buildroot 2017.02.7) 4.9.4
