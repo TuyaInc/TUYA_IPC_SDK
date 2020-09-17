@@ -88,12 +88,13 @@ Login on https://ipc.ismartlife.me/login with Chrome, scan QR code with Tuya Sma
 ## 晨星 MStar/SigmaStar
 * [gcc-linaro-arm-linux-gnueabihf-4.8 for msc313e](https://github.com/TuyaInc/TUYA_IPC_SDK/tree/master/Stable/gcc-linaro-arm-linux-gnueabihf-4.8)
 * [arm-buildroot-linux-uclibcgnueabihf for msc313e](https://github.com/TuyaInc/TUYA_IPC_SDK/tree/master/Stable/arm-buildroot-linux-uclibcgnueabihf-313e)
-* [arm-buildroot-linux-uclibcgnueabihf for ssc323/333](https://github.com/TuyaInc/TUYA_IPC_SDK/tree/master/Stable/arm-buildroot-linux-uclibcgnueabihf-ssc323)
 * [arm-buildroot-linux-uclibcgnueabihf for msc316dc](https://github.com/TuyaInc/TUYA_IPC_SDK/tree/master/Stable/arm-buildroot-linux-uclibcgnueabihf-msc316dc)
 * [arm-buildroot-linux-uclibggnueabinhf-gcc-4.7.3](https://github.com/TuyaInc/TUYA_IPC_SDK/tree/master/Stable/arm-buildroot-linux-uclibggnueabinhf-gcc-4.7.3)
+* [arm-buildroot-linux-uclibcgnueabihf for ssc323/333](https://github.com/TuyaInc/TUYA_IPC_SDK/tree/master/Stable/arm-buildroot-linux-uclibcgnueabihf-ssc323)
+* [arm-buildroot-linux-uclibcgnueabihf for ssc325](https://github.com/TuyaInc/TUYA_IPC_SDK/tree/master/Stable/arm-buildroot-linux-uclibcgnueabihf-ssc325)
 
 ## 安凯 Anyka
-* [arm-none-linux-4.4.1 for 3918/3916 V100](https://github.com/TuyaInc/TUYA_IPC_SDK/tree/master/Stable/arm-none-linux-4.4.1 )
+* [arm-none-linux-4.4.1 for 3918/3916 V100](https://github.com/TuyaInc/TUYA_IPC_SDK/tree/master/Stable/arm-none-linux-4.4.1)
 * [arm-anykav200-linux-uclibc-4.8.5 for 3918/3916 v200](https://github.com/TuyaInc/TUYA_IPC_SDK/tree/master/Stable/arm-anykav200-linux-uclibc-4.8.5)
 * [arm-anykav500-linux-uclibcgnueabi-gcc-4.9.4 for v500](https://github.com/TuyaInc/TUYA_IPC_SDK/tree/master/Stable/arm-anykav500-linux-uclibcgnueabi-gcc-4.9.4)
 
@@ -154,6 +155,7 @@ Login on https://ipc.ismartlife.me/login with Chrome, scan QR code with Tuya Sma
 ## 数字动力 D-power
 * [gcc-linaro-5.3.1-2016.05-x86_64 for X1H](https://github.com/TuyaInc/TUYA_IPC_SDK/tree/master/Stable/gcc-linaro-5.3.1-2016.05-x86_64)
 * [arm-linux-gnueabihf for X9](https://github.com/TuyaInc/TUYA_IPC_SDK/tree/master/Stable/arm-linux-gnueabihf_x9)
+* [arm-linux-gnueabi for x5](https://github.com/TuyaInc/TUYA_IPC_SDK/tree/master/Stable/arm-linux-gnueabi_x5)
 
 ## 安霸 AMBARELLA
 * [linaro-aarch64-2017.08-gcc7.1 for S5L](https://github.com/TuyaInc/TUYA_IPC_SDK/tree/master/Stable/linaro-aarch64-2017.08-gcc7.1)
