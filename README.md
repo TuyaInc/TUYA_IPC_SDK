@@ -109,6 +109,7 @@ Login on https://ipc.ismartlife.me/login with Chrome, scan QR code with Tuya Sma
 * [arm-goke-linux-glibc-4.6.1 for GK7101/7102](https://github.com/TuyaInc/TUYA_IPC_SDK/tree/master/Stable/arm-goke-linux-glibc-4.6.1)
 * [arm-goke-linux-uclibc-4.6.1](https://github.com/TuyaInc/TUYA_IPC_SDK/tree/master/Stable/arm-goke-linux-uclibc-4.6.1)
 * [arm-linux-gnueabihf-4.8.3](https://github.com/TuyaInc/TUYA_IPC_SDK/tree/master/Stable/arm-linux-gnueabihf-4.8.3)
+* [arm-gk720x-linux for GK7202](https://github.com/TuyaInc/TUYA_IPC_SDK/tree/master/Stable/arm-gk720x-linux)
 
 ## 全志 Allwinner
 * [arm-openwrt-linux-muslgnueabi for R16](https://github.com/TuyaInc/TUYA_IPC_SDK/tree/master/Stable/arm-openwrt-linux-muslgnueabi)
