@@ -166,5 +166,8 @@ Login on https://ipc.ismartlife.me/login with Chrome, scan QR code with Tuya Sma
 ## 豪威 OV
 * [arm-ov-linux-uclibcgnueabihf for OA7000](https://github.com/TuyaInc/TUYA_IPC_SDK/tree/master/Stable/arm-ov-linux-uclibcgnueabihf)
 
+## 亿智电子 Eeasytech
+* [gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf for SV811]
+
 ## Others
 * [dh_alpsx_4.8.3](https://github.com/TuyaInc/TUYA_IPC_SDK/tree/master/Stable/dh_alpsx_4.8.3)
