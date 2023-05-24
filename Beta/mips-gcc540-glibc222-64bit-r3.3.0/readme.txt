@@ -1,1 +1,0 @@
-PREFIX=mips-gcc540-glibc222-64bit-r3.3.0/bin/mips-linux-uclibc-gnu-
